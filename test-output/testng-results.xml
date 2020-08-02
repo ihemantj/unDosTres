@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-08-02T22:29:19Z" name="Framework" finished-at="2020-08-02T22:30:01Z" duration-ms="41113">
+    <groups>
+    </groups>
+    <test started-at="2020-08-02T22:29:19Z" name="RunTests" finished-at="2020-08-02T22:30:01Z" duration-ms="41113">
+      <class name="tests.HomePageTests">
+        <test-method is-config="true" signature="suiteSetup()[pri:0, instance:tests.HomePageTests@482cd91f]" started-at="2020-08-03T03:59:16Z" name="suiteSetup" finished-at="2020-08-03T03:59:19Z" duration-ms="3527" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suiteSetup -->
+        <test-method is-config="true" signature="classSetup()[pri:0, instance:tests.HomePageTests@482cd91f]" started-at="2020-08-03T03:59:19Z" name="classSetup" finished-at="2020-08-03T03:59:24Z" duration-ms="4790" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classSetup -->
+        <test-method signature="verifyIfPageLoaded()[pri:1, instance:tests.HomePageTests@482cd91f]" started-at="2020-08-03T03:59:24Z" name="verifyIfPageLoaded" finished-at="2020-08-03T03:59:25Z" duration-ms="1078" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyIfPageLoaded -->
+        <test-method signature="mobileRecharge()[pri:2, instance:tests.HomePageTests@482cd91f]" started-at="2020-08-03T03:59:25Z" name="mobileRecharge" finished-at="2020-08-03T03:59:26Z" duration-ms="1083" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobileRecharge -->
+        <test-method signature="cardDetails()[pri:3, instance:tests.HomePageTests@482cd91f]" started-at="2020-08-03T03:59:26Z" name="cardDetails" finished-at="2020-08-03T03:59:45Z" duration-ms="18200" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cardDetails -->
+        <test-method signature="verifyIfRechargeSuccessfull()[pri:4, instance:tests.HomePageTests@482cd91f]" started-at="2020-08-03T03:59:45Z" name="verifyIfRechargeSuccessfull" finished-at="2020-08-03T04:00:01Z" duration-ms="15936" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyIfRechargeSuccessfull -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.HomePageTests@482cd91f]" started-at="2020-08-03T04:00:01Z" name="tearDown" finished-at="2020-08-03T04:00:01Z" duration-ms="662" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.HomePageTests -->
+    </test> <!-- RunTests -->
+  </suite> <!-- Framework -->
+</testng-results>

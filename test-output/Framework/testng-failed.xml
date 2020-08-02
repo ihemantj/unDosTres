@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Framework]">
+  <test name="RunTests(failed)">
+    <classes>
+      <class name="tests.HomePageTests">
+        <methods>
+          <include name="classSetup"/>
+          <include name="tearDown"/>
+          <include name="suiteSetup"/>
+          <include name="cardDetails"/>
+          <include name="verifyIfRechargeSuccessfull"/>
+        </methods>
+      </class> <!-- tests.HomePageTests -->
+    </classes>
+  </test> <!-- RunTests(failed) -->
+</suite> <!-- Failed suite [Framework] -->
